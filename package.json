@@ -1,0 +1,32 @@
+{
+  "name": "default-prop",
+  "version": "1.0.0",
+  "description": "Create an iterable function that assigns a default value to given property name",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Whoaa512/default-prop.git"
+  },
+  "keywords": [
+    "lodash",
+    "iterable",
+    "default-prop",
+    "default",
+    "prop"
+  ],
+  "author": "C.J. Winslow <whoaa512@gmail.com> (https://github.com/Whoaa512)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Whoaa512/default-prop/issues"
+  },
+  "homepage": "https://github.com/Whoaa512/default-prop",
+  "devDependencies": {
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0",
+    "pre-commit": "0.0.11",
+    "which": "^1.0.8"
+  }
+}
